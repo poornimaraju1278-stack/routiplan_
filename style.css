@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+}
+
+.slide {
+    display: none;
+    height: 100vh;
+    padding: 40px;
+    text-align: center;
+}
+
+.slide.active {
+    display: block;
+}
+
+input, select {
+    text-align: center;
+}
